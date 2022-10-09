@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/ISP/static/css/main.5fab889f.css",
+    "main.js": "/ISP/static/js/main.a72cfc70.js",
+    "static/js/787.f9b44cec.chunk.js": "/ISP/static/js/787.f9b44cec.chunk.js",
+    "static/media/couple.png": "/ISP/static/media/couple.911c92e18a23f997de43.png",
+    "static/media/broadband.png": "/ISP/static/media/broadband.39f9a85b531b1f18ab4a.png",
+    "static/media/Xtream1.png": "/ISP/static/media/Xtream1.4a14d795ded7fac84d37.png",
+    "static/media/Phone.png": "/ISP/static/media/Phone.d1e0ad70f45f9b41d28a.png",
+    "static/media/girl1.png": "/ISP/static/media/girl1.9cf922031c47e916d6c0.png",
+    "static/media/icon3.png": "/ISP/static/media/icon3.692a54a083658a835014.png",
+    "static/media/img2.jpg": "/ISP/static/media/img2.0f6998a54724abf21f21.jpg",
+    "static/media/phone.png": "/ISP/static/media/phone.3b61c1c3d6b34cced280.png",
+    "static/media/cons.png": "/ISP/static/media/cons.998bc0921c6d8a030b9e.png",
+    "static/media/about.jpg": "/ISP/static/media/about.c23effdde87d3ac85b2e.jpg",
+    "static/media/speed6.jpg": "/ISP/static/media/speed6.d9a2850ea7cc0d1ad37f.jpg",
+    "static/media/laptop4.jpg": "/ISP/static/media/laptop4.eeaf4332f952b7e8a676.jpg",
+    "static/media/speed8.jpg": "/ISP/static/media/speed8.b0f78847a89968c6e41f.jpg",
+    "static/media/second1.jpg": "/ISP/static/media/second1.e6ad115c95f2ee219ab8.jpg",
+    "static/media/speed1.jpg": "/ISP/static/media/speed1.470466a514815a41ea4b.jpg",
+    "static/media/woman1.jpg": "/ISP/static/media/woman1.b536e39b9ae4ca29a43b.jpg",
+    "static/media/icon5.png": "/ISP/static/media/icon5.6e6af3ec5b634058a931.png",
+    "static/media/log2.jfif": "/ISP/static/media/log2.620b108f616350978519.jfif",
+    "static/media/usman3.jfif": "/ISP/static/media/usman3.59c84a0267a649921dff.jfif",
+    "static/media/ultra1.png": "/ISP/static/media/ultra1.3b93c30b540ee3974d6b.png",
+    "static/media/speentext.jpg": "/ISP/static/media/speentext.80aab009633d5ae8b7db.jpg",
+    "static/media/img23.jpg": "/ISP/static/media/img23.d24d97c3c960b237a531.jpg",
+    "static/media/about1.jpg": "/ISP/static/media/about1.166a01e8b212be152f59.jpg",
+    "static/media/icon2.png": "/ISP/static/media/icon2.783f2ce83817c8c68678.png",
+    "static/media/icon1.png": "/ISP/static/media/icon1.081dca8ced4897e56ef7.png",
+    "static/media/icon6.png": "/ISP/static/media/icon6.05fe4879817a1940d700.png",
+    "static/media/img6.jpg": "/ISP/static/media/img6.0e577ba9ba3f6ff5f157.jpg",
+    "static/media/icon4.png": "/ISP/static/media/icon4.d6105841cb5fe5078c5c.png",
+    "index.html": "/ISP/index.html",
+    "main.5fab889f.css.map": "/ISP/static/css/main.5fab889f.css.map",
+    "main.a72cfc70.js.map": "/ISP/static/js/main.a72cfc70.js.map",
+    "787.f9b44cec.chunk.js.map": "/ISP/static/js/787.f9b44cec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fab889f.css",
+    "static/js/main.a72cfc70.js"
+  ]
+}
