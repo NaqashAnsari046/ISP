@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#userlist h3{
+    padding: 1rem 2rem;
+    width: 25%;
+    display: inline-flex !important;
+    background-color:rgba(0, 0, 0, 0.808);
+    color: #fffff0;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#userlist button{
+    margin-left: 1rem;
+    padding: 0.8rem 0rem;
+    width: 8%;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex !important;
+    background-color:rgba(0, 0, 0, 0.808);
+    color: #fffff0;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#userlist button:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+#setUerBorad{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#setUerBorad h1{
+    padding: 2rem 12rem;
+    color: #fffff0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#setNAdmin{
+    flex-direction: column;
+    width: 100%;
+}
+
+@media(max-width:380px){
+    #setUerBorad h1{
+        padding: 2rem 3rem;
+        font-size: 2.5rem;
+    }
+}

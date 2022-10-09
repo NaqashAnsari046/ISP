@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#ReqText{
+    /* height: 80vh; */
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    color: #fffff0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+#setHeding{
+    padding-top: 3rem;
+}
+
+#ReqText h4{
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 2.3rem;
+    height: 30vh;
+    width: 100%;
+    background-color: #00000073;
+}
+
+#reqNet4You{
+    display: flex;
+    text-align: start !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem 0rem;
+    padding: 0rem 4rem;
+    background-color: rgba(63, 73, 73, 0.616);
+    height: 40vh;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+#reqNet4You h1{
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+
+#reqNet4You h2{
+    font-size: 1.7rem;
+    padding: 1rem 0rem;
+}
+#NavRequest{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #ffa600be;
+    padding: 0.5rem 1.6rem;
+    width: 40%;
+    border-radius: 1rem;
+    color: #fffff0;
+    font-weight: 700;
+}
+#setImg{
+    position: relative;
+}
+#setImg img{
+    width: 100%;
+    height: 160vh;
+}
+
+
+@media(max-width:380px){
+    #reqNet4You{
+        margin: 1rem 1rem !important;
+    }
+    #setImg img{
+        height: 3150vh !important;
+    }
+    #NavRequest{
+        text-align: center !important;
+        width: 50% !important;
+    }
+    #setHeding{
+        padding-left: 2rem;
+    }
+}
+
+@media(max-width:420px){
+    #reqNet4You{
+        margin: 1rem 1rem !important;
+    }
+    #setImg img{
+        height: 315vh !important;
+    }
+    #NavRequest{
+        width: 60%;
+    }
+    #setHeding{
+        padding-left: 2rem;
+    }
+}
+
+@media(max-width:768px){
+    #reqNet4You{
+        margin: 2rem 0rem;
+    }
+    #setImg img{
+        height: 210vh;
+    }
+    #NavRequest{
+        width: 50%;
+    }
+}
+
+@media(max-width:1024px){
+    #NavRequest{
+        width: 70%;
+    }
+}

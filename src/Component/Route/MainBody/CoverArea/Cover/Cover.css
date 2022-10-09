@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.borderSet{
+    border-right: 1px solid #fffff0;
+    padding-right: 2rem;
+}
+.setCoverarea{
+    text-align: center;
+    background-color: #000000;
+    color: #fffff0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+
+.setCoverarea h1{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+#setLinkcover{
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    color: #fffff0;
+    text-decoration: none;
+}
+
+#setCover{
+    margin-left: 7rem;
+   padding: 4rem;
+}
+
+#setCover h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#setCover input{
+    width: 40%;
+    padding: 0.5rem 1rem;
+}
+
+#tableCover{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 8rem;
+}
+#tableCover th{
+    padding: 0.8rem 2rem;
+    background-color: #000000;
+    color: #fffff0;
+}
+#tableCover td{
+    padding: 0.6rem 2rem;
+    border: 1px solid gainsboro;
+}
+
+@media(max-width:380px){
+    #setCover{
+        padding: 2rem;
+        margin-left: 0rem !important;
+    }
+    #setCover h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    #setCover input{
+        width: 80% !important;
+        padding: 0.5rem 1rem;
+    }
+    #tableCover{
+        width:90% !important;
+    }
+}
+
+
+@media(max-width:420px){
+    #setCover h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #setCover{
+        padding: 2rem;
+        margin-left: 0rem !important;
+    }    
+    #setCover input{
+        width: 80% !important;
+        padding: 0.5rem 1rem;
+    }
+    #tableCover{
+        width:90% !important;
+    }
+}
+
+@media(max-width:768px){
+    #setCover{
+        padding: 2rem;
+        margin-left: 1rem;
+    }    
+   
+}
+@media(max-width:1024px){
+    #setCover{
+        padding: 2rem;
+        margin-left: 1rem;
+    }    
+   
+}

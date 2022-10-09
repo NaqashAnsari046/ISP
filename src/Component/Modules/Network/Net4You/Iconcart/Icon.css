@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#iconNetwork{
+    width: 100%;
+    background-color: #fffff0;
+    padding-bottom: 3rem;
+}
+#iconNetwork img{
+    width: 70%;
+    height: 15vh;
+    border: 2px solid #ffa600be;
+    padding: 0.3rem 2rem;
+}
+
+#iconNetwork h1{
+    font-size: 1.8rem;
+    width: 70%;
+    padding: 0.9rem 0rem;
+    font-weight: 700;
+}
+
+
+@media(max-width:380px){
+    #iconNetwork{
+        width: 100%;
+    }
+    #setsmallIcon{
+        width: 100% !important;
+    }
+    #setsmallIcon{
+        display: inline-flex !important;
+    }
+    #iconNetwork img{
+        width: 60% !important;
+        margin: 1rem 2rem;
+    }
+    #iconNetwork h1{
+        width: 50%;
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+@media(max-width:420px){
+    #setsmallIcon{
+        width: 100% !important;
+    }
+    #setsmallIcon{
+        display: inline-flex !important;
+    }
+    #iconNetwork img{
+        width: 40% !important;
+        margin: 1rem 1rem;
+    }
+    #iconNetwork h1{
+        width: 50%;
+        padding: 5rem 1.5rem !important;
+    }
+}
+
+@media(max-width:768px){
+    #setsmallIcon{
+        width: 48%;
+    }
+    #iconNetwork img{
+        width: 100% !important;
+        margin: 1rem 1rem;
+    }
+    #iconNetwork h1{
+        width: 80%;
+        padding: 1rem 1rem;
+    }
+}

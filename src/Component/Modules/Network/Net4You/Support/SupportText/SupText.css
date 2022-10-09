@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#setSoprt h1{
+    width: 100%;
+    text-align: center;
+    padding: 6rem 0rem;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2rem;
+}
+#setsportiner{
+    padding: 4rem 0rem;
+}
+#setsportiner h1{
+    font-size: 2.5rem;
+    padding: 0rem 0rem;
+    font-weight: 800 !important;
+    text-align: start;
+    border-right: 1px solid #000000;
+}
+#setsportiner p{
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 1rem 4rem 0rem 0rem;
+    font-size: 1.5rem;
+    border-right: 1px solid #000000;
+}
+
+#setCardSupport{
+    padding-top: 3rem;
+    margin-top: 5rem;
+    border-top: 1px solid gainsboro;
+}

@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Xtream{
+    background-color: #fffff0;
+    padding: 4rem 0rem; 
+    border-top: 1px solid #ffa600be;
+    z-index: -11 !important;
+}
+#XtreamTeext{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-transform: capitalize;
+}
+#XtreamTeext img{
+    height:90vh !important;
+}
+
+#XtreamTeext h1{
+    width: 65%;
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+#XtreamTeext span{
+    width: 64% !important;
+    color: #fffff0;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    padding: 0rem 2rem;
+    font-weight: 800;
+    background-color:#ffa600be ;
+    font-size: 2rem !important; 
+    letter-spacing: 0.1rem;
+}
+
+#XtreamTeext p{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    font-family: 'sans-serif';
+}
+
+#XtreamTeext h2{
+    margin-top: 2rem;
+}
+#XtreamTeext button{
+    padding: 0.4rem 2rem;
+    background-color: #ffa600be;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fffff0;
+    border: none;
+    width: 35% !important;
+    border-radius: 0.5rem;
+}
+
+@media(max-width:380px){
+    #Xtream{
+        padding-top: 10rem !important;
+    }
+    #XtreamTeext h1{
+        width: 90%;
+    }
+    #XtreamTeext{
+        padding: 4rem;
+        height: 70vh !important;
+    }
+    #XtreamTeext img{
+        height: 50vh !important;
+    }
+    #XtreamTeext span{
+        width: 55% !important;
+    }
+    #XtreamTeext button{
+    width: 45%;
+   }
+}
+
+@media(max-width:420px){
+    #Xtream{
+        padding-top: 10rem;
+    }
+    #XtreamTeext h1{
+        width: 90%;
+    }
+    #XtreamTeext{
+        padding: 4rem;
+        height: 70vh !important;
+    }
+    #XtreamTeext img{
+        height: 50vh !important;
+    }
+    #XtreamTeext span{
+        width: 40% !important;
+    }
+    #XtreamTeext button{
+    width: 45%;
+   }
+}
+
+@media(max-width:768px){
+    
+    #XtreamTeext h1{
+        width: 100%;
+    }
+    #XtreamTeext{
+        padding: 4rem;
+        height: 60vh !important;
+    }
+    #XtreamTeext img{
+        height: 50vh !important;
+        width: 80%;
+    }
+   
+    #XtreamTeext button{
+    width: 45%;
+   }
+}
+
+
+@media(max-width:1024px){
+    #Xtream{
+        padding: 8rem 0rem; 
+    }
+    #XtreamTeext{
+        padding: 4rem;
+        height: 85vh;
+    }
+    #XtreamTeext img{
+        height: 50vh;
+    }
+    #XtreamTeext span{
+        width: 75%;
+    }
+    #XtreamTeext button{
+    width: 55% !important;
+   }
+}

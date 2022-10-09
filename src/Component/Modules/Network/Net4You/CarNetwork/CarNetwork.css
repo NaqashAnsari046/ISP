@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#carNetwork{
+    padding-top: 24rem;
+    color: #fffff0;
+    /* background-color:#9b9b26; */
+    z-index: 111 !important;
+    padding-bottom: 6rem !important;
+}
+
+#carNetwork img{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+.Cartext{
+    margin-top: -29rem;
+}
+.Cartext h2{
+    margin-top: 9rem;
+    font-size: 3rem !important;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+#supnet{
+    font-size: 5rem;
+    border-bottom: 1px solid #fffff0;
+}
+.Cartext h1{
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.Cartext p{
+    font-size: 2rem;
+}
+.Cartext h6{
+    font-size: 1.5rem;
+    font-family: 'sans-serif';
+}
+.Cartext button{
+    margin-top: 2rem;
+    padding: 0.5rem 2.5rem;
+    background-color: #FFA500;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    color: #fffff0;
+}
+
+@media(max-width:380px){
+
+    #carNetwork img{
+        height: 90vh !important;
+    }
+    #carNetwork{
+        padding-top: 0rem;
+        color: #fffff0;
+    }
+    .Cartext{
+        padding: 2rem;
+        margin-top: -54rem;
+    }
+    .Cartext h1{
+        font-size: 3rem;
+    }
+    .Cartext p{
+        font-size: 2rem !important;
+    }
+    .Cartext h6{
+        font-size: 2rem !important;
+    }  
+    .Cartext h2{
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+}
+
+
+@media(max-width:420px){
+    #carNetwork img{
+        height: 70vh;
+    }
+    #carNetwork{
+        padding-top: 0rem;
+        color: #fffff0;
+    }
+    .Cartext{
+        padding-left: 0rem !important; 
+        padding: 2rem !important;
+        margin-top: -54rem;
+    }
+    .Cartext p{
+        font-size: 2.5rem;
+    }
+    .Cartext h6{
+        font-size: 2.2rem;
+    }  
+    .Cartext h2{
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+}
+
+
+@media(max-width:768px){
+    #carNetwork img{
+        height: 70vh;
+    }
+    #carNetwork{
+        padding: 0rem;
+        color: #fffff0;
+    }
+    .Cartext{
+        padding-left: 18rem;
+        margin-top: -54rem;
+    }
+    .Cartext h1{
+        font-size: 3rem;
+    }
+    .Cartext p{
+        font-size: 2rem !important;
+    }
+    .Cartext h6{
+        font-size: 2rem !important;
+    }  
+    .Cartext h2{
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+}

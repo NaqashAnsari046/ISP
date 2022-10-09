@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setslidernetwork{
+    z-index: -11 !important;
+}
+#setslidernetwork img{
+    z-index: 1;
+    height: 100vh;
+}
+#networkslidetText{
+    color: #fffff0;
+    height: 100vh !important;
+    text-align: start;
+    text-transform: capitalize;
+}
+#networkslidetText h1{
+    font-size: 4rem;
+    font-weight: 900;
+    width: 23%;
+    margin-top: 14rem;
+    font-family: 'Oswald', sans-serif;
+}
+#networkslidetText h2{
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+#networkslidetText h4{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+#networkslidetText p{
+    font-size: 1.5rem;
+    width: 46%;
+    font-family: 'sans-serif';
+}
+#networkslidetText button{
+    padding: 0.5rem 2rem !important;
+    background-color: #FFA500;
+    font-size: 1.5rem !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fffff0;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+@media(max-width:380px){
+    #setslidernetwork img{
+        height: 80vh;
+    }
+    #networkslidetText h1{
+        font-size: 3rem;
+        margin-top: 2rem !important;
+        font-weight: 900;
+        width: 90%;
+    }
+    #networkslidetText h2{
+        font-size: 4rem;
+        margin-top: 2rem;
+        font-weight: 800;
+        letter-spacing: 0.2rem;
+    }
+    #networkslidetText p{
+        font-size: 1.5rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+
+
+@media(max-width:420px){
+    #setslidernetwork img{
+        height: 80vh !important;
+    }
+    #networkslidetText h1{
+        font-size: 3rem;
+        margin-top: 10rem;
+        font-weight: 900;
+        width: 90%;
+    }
+    #networkslidetText h2{
+        font-size: 4rem;
+        margin-top: 2rem;
+        font-weight: 800;
+        letter-spacing: 0.2rem;
+    }
+    #networkslidetText p{
+        font-size: 2rem;
+        width: 100% !important;
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:768px){
+    #setslidernetwork img{
+        height: 65vh !important;
+    }
+}
+
+
+@media(max-width:1024px){
+    #setslidernetwork img{
+        height: 100vh;
+    }
+    #networkslidetText h1{
+        font-size: 3rem;
+        margin-top: 8rem;
+        font-weight: 900;
+        width: 90%;
+    }
+    #networkslidetText h2{
+        font-size: 4rem;
+        margin-top: 2rem;
+        font-weight: 800;
+        letter-spacing: 0.2rem;
+    }
+    #networkslidetText p{
+        font-size: 1.5rem;
+        width: 60%;
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+  
+#setMainNav{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    padding: 1.5rem 2rem;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    box-shadow: 0px 3px 0px 0px rgba(199, 199, 194, 0.884);
+    background-color: #000000; 
+    z-index: 11rem !important;
+}
+
+nav.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #282b2ae3 !important;
+}
+
+#setMainNav h4{
+    font-weight: 700;
+    color: #fffff0;
+    display: none;
+}
+#isp{
+    display: none;
+    color: #fffff0;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: italic;
+    letter-spacing: 0.2rem;
+    font-size: 2rem !important;
+}
+
+ul{
+    width: 100%;
+}
+#setMainNav li{
+    padding-left: 2.1rem;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#setInputSearch{
+    display: flex;
+    height: 2rem;
+    margin-top: 0.8rem;
+    width: 25% !important;
+}
+#setInputSearch input{
+    background-color: black;
+    color: #fffff0;
+}
+#setInputSearch i{
+    font-size: 1rem;
+}
+#setInputSearch input::placeholder{
+    color: #fffff0;
+}
+.nav-link{
+    color: #fffff0 !important;
+}
+
+#NavSetBtn{
+    font-size: 1rem !important;
+}
+
+
+/* set drodown */
+
+#setDrop{
+    margin-left: 15rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Oswald', sans-serif !important;
+    padding: 2rem 2rem;
+    width: 20% !important;
+    background-color: #000000c5;
+}
+#setDrop li{
+    margin: 0.5rem;
+    color:  #fffff0 !important;
+    background-color: #1a2421;
+}
+#setDrop li:hover{
+    margin: 0.5rem;
+    background-color: #fffff0;
+}
+
+#setcllbtn{
+    margin: 0rem 2rem;
+}
+
+
+
+
+@media(max-width:380px){
+    #setMainNav{
+        font-size: 1.5rem !important;
+        font-family: italic;
+    }
+    #setInputSearch{
+        height: 2rem;
+        margin: 0.4rem 0rem;
+        width: 53%;
+    }
+    #setMainNav li{
+        padding-left: 0.5rem;
+    }
+    #bar{
+        margin-right: 1rem;
+    }
+    #setInputSearch{
+        display: block !important;
+        display: inline-flex !important;
+    }
+    #setInputSearch input{
+        display: block;
+        width: 70% !important;
+    }
+    .btnset{
+        display: block !important;
+    }
+    #setDrop{
+        margin-left: 1rem !important;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        font-family: 'Oswald', sans-serif !important;
+        padding: 1rem 2rem;
+        width: 100% !important;
+        background-color: #000000c5;
+    }
+    #singin{
+        margin-left: 0.1rem !important;
+    }
+    #setcllbtn{
+        width: 50% !important;
+        margin: 0rem 0rem;
+    }
+  
+}
+
+@media(max-width:420px){
+    #setMainNav{
+        font-size: 1.5rem !important;
+        font-family: italic;
+    }
+    #setInputSearch{
+        height: 2rem;
+        margin: 0.5rem 0rem;
+        width: 83%;
+    }
+    #setMainNav li{
+        padding-left: 0.5rem;
+    }
+    #bar{
+        margin-right: 2rem;
+    }
+    #navbarNav{
+        margin-top: 1rem;
+        border-top: 1px solid white;
+    }
+    #setInputSearch{
+        display: block !important;
+        display: inline-flex !important;
+    }
+    #setInputSearch input{
+        display: block;
+        width: 70% !important;
+    }
+    .btnset{
+        display: block !important;
+    }
+    #setDrop{
+        margin-left: 1rem !important;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        font-family: 'Oswald', sans-serif !important;
+        padding: 1rem 2rem;
+        width: 100% !important;
+        background-color: #000000c5;
+    }
+    #singin{
+        margin-left: 0.1rem !important;
+    }
+    #setcllbtn{
+        width: 50% !important;
+        margin: 0.7rem 0rem;
+    }
+}
+
+
+@media(max-width:768px){
+    #setMainNav{
+        font-size: 1.5rem !important;
+        font-family: italic;
+    }
+    #setInputSearch{
+        height: 2rem;
+        margin: 0.5rem 0rem;
+        width: 83%;
+    }
+    #setMainNav li{
+        padding-left: 0.5rem;
+    }
+    #bar{
+        margin-right: 1rem;
+    }
+    #navbarNav{
+        margin-top: 1rem;
+        border-top: 1px solid white;
+    }
+    #setInputSearch{
+        display: block !important;
+        display: inline-flex !important;
+    }
+    #setInputSearch input{
+        display: block;
+        width: 70% !important;
+    }
+    .btnset{
+        display: block !important;
+    }
+    #setDrop{
+        margin-left: 1rem !important;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        font-family: 'Oswald', sans-serif !important;
+        padding: 1rem 2rem;
+        width: 90% !important;
+        background-color: #000000c5;
+    }
+    #singin{
+        margin-left: 0.1rem !important;
+    }
+    #setcllbtn{
+        width: 25%;
+        margin: 0.7rem 0rem;
+    }
+}
+
+
+@media(max-width:1024px){
+    #setInputSearch{
+        display: none;
+    }
+    #setMainNav{
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+    }
+   
+    #setcllbtn{
+        display: none;
+        margin-right: 2rem;
+    }
+    #topfixed{
+        justify-content: end;
+    }
+    #setDrop{
+        margin-left: 39rem;
+    }
+    .packages{
+        margin-left: 47rem !important;
+    }
+   
+  
+} 
+
+

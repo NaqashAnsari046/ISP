@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#setMainNav1{
+    font-size: 1.5rem;
+    padding: 0.9rem 3rem;
+    letter-spacing: 0.1rem;
+    /* background: rgb(0,0,0); */
+    /* background-color:#fffff0; */
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    z-index: 1;
+}
+
+#setMainNav1 h4{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #1b1b1b ;
+}
+#setMainNav1 img{
+    width: 100%;
+    height: 16vh;
+}
+#setsupport{
+    font-size: 1.2rem;
+    font-family: italic;
+    color:#1b1b1b ;
+}
+
+#setInput{
+    width: 100%;
+    justify-content:end;
+}
+#setPhone{
+    font-size: 1.7rem;
+    font-weight: 800 !important;
+    color: #1b1b1b ;
+}
+#setMail{
+    padding-left: 1rem;
+    border-left: 1px solid #1b1b1b ;
+    color: #1b1b1b ;
+    font-size: 1.2rem;
+}
+#setMainNav1 li{
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+
+
+@media(max-width:380px){
+    #setMainNav1{
+        font-size: 1.5rem !important;
+        font-family: italic;
+    }
+    #setMainNav1 li{
+        padding-left: 0.5rem;
+    }
+    #bar{
+        margin-right: 1rem;
+    }
+    /* #showbutton{
+        display: none;
+    }
+    #setMail{
+        display: none;
+    } */
+}
+
+@media(max-width:420px){
+    #setMainNav1{
+        font-size: 1.5rem !important;
+        font-family: italic;
+    }
+    #setMainNav1 li{
+        padding-left: 0.5rem;
+    }
+    #bar{
+        margin-right: 1rem;
+    }
+    #navbarNav{
+        margin-top: 1rem;
+        border-top: 1px solid white;
+    }
+}
+
+
+@media(max-width:768px){
+    #setMainNav1{
+        font-size: 1.5rem !important;
+        font-family: italic;
+    }
+    #setMainNav1 li{
+        padding-left: 0.5rem;
+    }
+    #bar{
+        margin-right: 1rem;
+    }
+    #navbarNav{
+        margin-top: 1rem;
+        border-top: 1px solid white;
+    }
+}
+
+
+@media(max-width:1024px){
+    #setInputSearch{
+        display: none;
+    }
+    #setMainNav1{
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+    }
+} 

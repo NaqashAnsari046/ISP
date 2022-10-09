@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setNetname{
+    position: absolute;
+    margin-top: 64rem;
+    padding: 4rem;
+    width: 100%;
+    z-index: -1 !important;
+
+}
+#setContainetNet{
+    padding:2rem;
+    border-radius: 2rem;
+    background-color: #ffa600be;
+}
+#setContainetNet h1{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #fffff0 !important;
+    font-family: 'Oswald', sans-serif;
+}
+#setContainetNet p{
+    width: 85%;
+    padding: 2rem 4rem;
+    font-size: 1.4rem;
+    font-family: 'sans-serif';
+    color: #fffff0 !important;
+    font-weight: 600;
+}
+
+@media(max-width:380px){
+    #setNetname{
+        display: none;
+    }
+}
+
+@media(max-width:420px){
+    #setNetname{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    #setNetname{
+        display: none;
+    }
+}
+
+
+@media(max-width:1024px){
+    #setNetname{
+        margin-top: 60rem;
+    }
+    
+}

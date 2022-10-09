@@ -1,0 +1,17 @@
+html{
+  font-size: 62.5%;
+}
+.AppMain{
+  background-image: url('./Component/img/postr2.jpg');
+  background-size: cover;   
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% 100%; */
+  height:100vh;
+  /* opacity: 0.4; */
+}
+@media(max-width:768px){
+  .AppMain{
+  background-size: 100% 100% !important; 
+  background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.FooterBar{
+    border-top: 1px solid #fffff0;
+    background: rgb(4,11,13);
+    background: linear-gradient(331deg, rgba(4,11,13,0.9808298319327731) 6%, rgba(0,0,10,0.9864320728291317) 37%, rgba(1,0,14,1) 99%);
+    color: #fffff0;
+    padding: 3rem 8rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    /* font-weight: 700; */
+    letter-spacing: 0.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+.setLinkFotter{
+    color: rgb(219, 164, 12);
+}
+.setLinkFotter:hover{
+    color: #fffff0;
+}
+
+
+@media(max-width:380px){
+    .FooterBar{
+        padding: 3rem 4rem;
+    }
+}
+
+@media(max-width:420px){
+    .FooterBar{
+        padding: 3rem 4rem;
+    }
+}
+
+@media(max-width:768px){
+    .FooterBar{
+        padding: 3rem 4rem;
+    }
+}

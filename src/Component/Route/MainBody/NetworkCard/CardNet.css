@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.netword{
+    /* background-color: black; */
+    background: rgb(4,11,13);
+    background: linear-gradient(331deg, rgba(4,11,13,0.9808298319327731) 6%, rgba(0,0,10,0.9864320728291317) 37%, rgba(1,0,14,1) 99%);
+    border-top: 1px solid white;
+}
+.setCart h3{
+    border: 1px solid white;
+    padding: 0.2rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 17%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius: 1rem;
+}
+#setOutSide{
+    padding: 4rem 0.7rem;
+    transition: box-shadow .3s;
+}
+.setCardNetwork img{
+    height:60vh;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(209, 196, 196, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.setCardNetwork{
+    display: flex !important;
+    position: relative;
+}
+.imgText{
+    padding: 3rem;
+    position: absolute;
+    padding-top: 8rem;
+}
+.setCardNetwork h4{
+    font-weight: 700;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1.6rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2rem;
+}
+.setCardNetwork p{
+    font-size: 1.6rem;
+    color:#fffff0;
+    margin-top: 2rem;
+    font-family: 'sans-serif';
+}
+.setCardNetwork button{
+    padding: 0.5rem 2.5rem;
+    font-weight: 700;
+    color: black;
+    border: 1px solid white;
+    background-color:rgba(233, 168, 30, 0.548);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    color: white;
+    width: 45%;
+}
+.setCardNetwork button:hover{
+    background-color:rgb(250, 178, 23);
+}
+
+
+@media(max-width:380px){
+    #setOutSide{
+        padding: 1rem 1.5rem !important; 
+        width: 100% !important;
+    }
+    .setCardNetwork img{
+        height: 50vh !important;
+    }
+    .setCardNetwork p{
+        font-size: 1.5rem !important;
+        line-height: 2rem !important; 
+    }
+    .setCardNetwork h4{
+        margin-top: 0.5rem !important;
+    }
+    .setCardNetwork button{
+        font-size: 1.5rem !important;
+        width: 50% !important;
+    }
+    .setCart h3{
+        width:35%;
+        margin: 0rem 1.2rem;
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(max-width:420px){
+    #setOutSide{
+        width: 100% !important;
+        padding: 1rem 1.5rem !important;
+    }
+    .setCardNetwork img{
+        height: 50vh !important; 
+    }
+    .setCardNetwork h4{
+        margin-top: 5rem;
+    }
+    .setCardNetwork button{
+        font-size: 1.5rem !important;
+        width: 50% !important;
+    }
+    .setCart h3{
+        width:45%;
+        margin: 0rem 1.2rem;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:768px){
+    #setOutSide{
+        padding: 1rem 0.7rem;
+        width: 50%;
+    }
+    .setCardNetwork img{
+        height: 33vh;
+    }
+    .setCardNetwork p{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    .setCardNetwork button{
+        font-size: 1.7rem;
+        width: 50%;
+    }
+}
+
+@media(max-width:1024px){
+    .setCardNetwork button{
+        font-size: 1.4rem;
+        width: 55% !important;
+    }
+}

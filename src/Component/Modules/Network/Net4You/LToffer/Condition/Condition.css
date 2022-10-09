@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainCondition{
+    background-color: #000000;
+    padding: 6rem 0rem;
+}
+
+.mainCondition h1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 2rem 0rem;
+    color: #fffff0;
+
+}
+
+.mainCondition li{
+    padding: 0.7rem 0rem;
+    color:#fffff0;
+    font-size: 1.7rem;
+    font-weight: 600;
+}

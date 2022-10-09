@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#setMainPro{
+    background-color: #fffff0;
+    border-top: 1px solid #ffa600be;
+    padding: 4rem;
+}
+#setConProduct{
+    text-transform: capitalize;
+    height: 80vh;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#setConProduct h1{
+    background-color: #ffa600be;
+    width: 38%;
+    padding: 0rem 2rem;
+}
+
+#setConProduct p{
+    padding-top: 2rem !important;
+    width: 70%;
+    font-size: 1.5rem;
+}
+#setImgPro img{
+    border-left: 4px solid #ffa600f8;
+    width: 100%;
+    height: 80vh !important;
+}
+
+@media(max-width:380px){
+    #setMainPro{
+        padding: 2rem 1rem;
+    }
+    #setConProduct{
+        margin-top: 2rem;
+        height: 33vh !important;
+    }
+    #setConProduct h1{
+        background-color: #ffa600be !important;
+        width: 60% !important;
+        padding: 0rem 2rem;
+        margin-top: 1rem !important;
+    }
+    #setConProduct p{
+        padding-top: 2rem !important;
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    #setImgPro img{
+        border-left: 4px solid #ffa600f8;
+        width: 100%;
+        height: 80vh !important;
+    }
+}
+
+
+@media(max-width:420px){
+    #setMainPro{
+        padding: 2rem 1rem;
+    }
+    #setConProduct{
+        margin-top: 2rem;
+        height: 33vh !important;
+    }
+    #setConProduct h1{
+        background-color: #ffa600be !important;
+        width: 60%;
+        padding: 0rem 2rem;
+    }
+    #setConProduct p{
+        padding-top: 2rem !important;
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    #setImgPro img{
+        border-left: 4px solid #ffa600f8;
+        width: 100%;
+        height: 80vh !important;
+    }
+}
+
+
+@media(max-width:768px){
+    
+    #setConProduct h1{
+        background-color: white;
+        padding: 0rem 2rem;
+    }
+    #setConProduct p{
+        padding-top: 2rem !important;
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    #setImgPro img{
+        border-left: 4px solid #ffa600f8;
+        width: 100%;
+        height: 50vh !important;
+    }
+    #setConProduct{
+        height: 50vh;
+       
+    }
+}
+

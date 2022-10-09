@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#userEmpSet li{
+        display: inline-flex;
+        list-style-type: none;
+        font-size: 2rem;
+        width: 20%;
+        background-color: black;
+        color: #fffff0;
+        font-weight: 700;
+        padding: 1rem 2rem;
+}
+
+
+#userEmpSet h4{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: #fffff0;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    list-style-type: none;
+    width: 20%;
+    text-align: start;
+    font-size: 2rem;
+}
+
+#userList{
+    text-decoration: none;
+}
+#userList h3{
+    text-transform: capitalize;
+    width: 30%;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: rgba(66, 64, 64, 0.884);
+    color: #fffff0;; 
+    margin: 1rem 2rem;
+    text-decoration: none !important;
+    width: 30%;
+    padding: 1rem 7rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+#listuser h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fffff0;
+    padding: 2rem 3rem;
+    text-transform: capitalize;
+}
+#listuser{
+    padding: 3rem 0rem;
+    background-color: black;
+    height: 100vh;
+}
+#setemployeedashdord{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#setemployeedashdord h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fffff0;
+    padding: 1rem 13rem;
+}
+#setLinkemp{
+    text-decoration: none;
+    color: #fffff0;
+    font-weight: 700;
+}
+
+
+@media(max-width:380px){
+    #userList h3{
+        text-transform: capitalize;
+        width: 100%;
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: rgba(66, 64, 64, 0.884);
+        color: #fffff0;; 
+        margin: 1rem 2rem;
+        text-decoration: none !important;
+        padding: 1rem 7rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:420px){
+    #userList h3{
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: rgba(66, 64, 64, 0.884);
+        color: #fffff0;; 
+        margin: 2rem 2rem;
+        text-decoration: none !important;
+        width: 90%;
+        padding: 1rem 6rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    #userList h3{
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: rgba(66, 64, 64, 0.884);
+        color: #fffff0;; 
+        margin: 2rem 2rem;
+        text-decoration: none !important;
+        width: 90%;
+        padding: 1rem 6rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
+}
